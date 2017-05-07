@@ -1,0 +1,18 @@
+/**
+ *
+ * 1. Explore the buildSrc folder
+ * 2. Run ./gradlew build (and again)
+ * 3. (Optional) Add a hello world task to
+ *    the AcmeBase Plugin.
+ */
+
+apply plugin:AcmeBase
+
+apply plugin:"java"
+apply plugin:"application"
+
+dependencies {
+    testCompile "junit:junit:4.12"
+}
+
+mainClassName = "org.acme.Main"

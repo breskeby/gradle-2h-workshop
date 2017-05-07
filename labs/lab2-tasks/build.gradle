@@ -1,0 +1,28 @@
+/**
+ *
+ * 1. Run ./gradlew tasks and check the output thourough
+ * 2. Run ./gradlew helloWorld and check the output thourough
+ * 3. Create a tasks that prints the current date
+ * 4. Make the `date` task depend on the hello world task
+ * 5. (Optional) explore the
+ *  according build scan.
+ *
+ *  Tip: remember you can import java classes
+ */
+
+plugins {
+    id "com.gradle.build-scan" version "1.7.1"
+}
+
+buildScan {
+  licenseAgreementUrl = 'https://gradle.com/terms-of-service'
+  // uncomment this for 5.)
+  // licenseAgree = 'yes'
+}
+
+task helloWorld {
+    println "configuring the helloWorld task"
+    doLast {
+        println "hello world"
+    }
+}

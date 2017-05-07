@@ -1,0 +1,31 @@
+/**
+ *
+ * 1. Run ./gradlew tasks
+ * 2. Run ./gradlew run (and again)
+ * 3. apply `org.gradle.idea` or `org.gradle.eclipse`
+ * and explore `./gradlew tasks` again
+ * 4. (Optional) Run ./gradlew clean build --scan
+ *
+ */
+
+plugins {
+    id "org.gradle.java"
+    id "org.gradle.application"
+    id "com.gradle.build-scan" version "1.7.1"
+}
+
+buildScan {
+  licenseAgreementUrl = 'https://gradle.com/terms-of-service'
+  // uncomment this for 5.)
+  // licenseAgree = 'yes'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile "junit:junit:4.12"
+}
+
+mainClassName = "org.acme.Main"
