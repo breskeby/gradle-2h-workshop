@@ -4,8 +4,10 @@
  * 2. Run ./gradlew helloWorld and check the output thourough
  * 3. Create a tasks that prints the current date
  * 4. Make the `date` task depend on the hello world task
- * 5. (Optional) explore the
- *  according build scan.
+ * 5. Make the `hello` task depend a typed task with a `message`
+ *    property.
+ * 6. (Optional) explore the
+ *    according build scan.
  *
  *  Tip: remember you can import java classes
  */
@@ -16,7 +18,7 @@ plugins {
 
 buildScan {
   licenseAgreementUrl = 'https://gradle.com/terms-of-service'
-  // uncomment this for 5.)
+  // uncomment this for 6.)
   // licenseAgree = 'yes'
 }
 

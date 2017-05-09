@@ -1,11 +1,10 @@
 /**
- *
  * 1. Run ./gradlew tasks
  * 2. Run ./gradlew run (and again)
  * 3. apply `org.gradle.idea` or `org.gradle.eclipse`
- * and explore `./gradlew tasks` again
+ *    and explore `./gradlew tasks` again
  * 4. (Optional) Run ./gradlew clean build --scan
- *
+ *    and explore the Gradle build scan
  */
 
 plugins {
