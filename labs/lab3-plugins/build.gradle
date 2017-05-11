@@ -2,7 +2,7 @@
  *
  * 1. Explore the buildSrc folder
  * 2. Run ./gradlew build (and again)
- * 3. (Optional) Add a hello world task to
+ * 3. Add a helloWorld task to
  *    the AcmeBase Plugin.
  */
 

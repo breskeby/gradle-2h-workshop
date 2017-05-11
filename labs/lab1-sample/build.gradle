@@ -3,7 +3,9 @@
  * 2. Run ./gradlew run (and again)
  * 3. apply `org.gradle.idea` or `org.gradle.eclipse`
  *    and explore `./gradlew tasks` again
- * 4. (Optional) Run ./gradlew clean build --scan
+ * 4. open the project using the generated IDE metadata
+	  in your favourite IDE
+ * 5. (Optional) Run ./gradlew clean build --scan
  *    and explore the Gradle build scan
  */
 
@@ -15,7 +17,7 @@ plugins {
 
 buildScan {
   licenseAgreementUrl = 'https://gradle.com/terms-of-service'
-  // uncomment this for 5.)
+  // uncomment this for 5.
   // licenseAgree = 'yes'
 }
 
