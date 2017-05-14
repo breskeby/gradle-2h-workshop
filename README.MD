@@ -1,5 +1,9 @@
 # Content
 
+This repository contains the labs used in the gradle 2h workshop. The according slides can be found at
+
+https://www.slideshare.net/RenGrschke/gradle-workshop-devoxx-uk-2017
+
 ### Labs
 
 All labs are in dedicated folders in the `labs` folder.

@@ -22,9 +22,9 @@ buildScan {
   // licenseAgree = 'yes'
 }
 
+
 task helloWorld {
-    println "configuring the helloWorld task"
     doLast {
-        println "hello world"
+        println "Hello World"
     }
 }

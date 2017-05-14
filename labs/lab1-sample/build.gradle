@@ -1,8 +1,8 @@
 /**
  * 1. Run ./gradlew tasks
  * 2. Run ./gradlew run (and again)
- * 3. apply `org.gradle.idea` or `org.gradle.eclipse`
- *    and explore `./gradlew tasks` again
+ * 3. Apply the plugin `org.gradle.idea` or `org.gradle.eclipse`
+ *    and explore `./gradlew tasks` again and run the IDE task
  * 4. open the project using the generated IDE metadata
 	  in your favourite IDE
  * 5. (Optional) Run ./gradlew clean build --scan
